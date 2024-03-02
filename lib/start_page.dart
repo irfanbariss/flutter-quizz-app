@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class StartPage extends StatelessWidget {
   const StartPage({super.key});
+
   @override
-  Widget build(context) {
+  Widget build(BuildContext context) {
     return Column(
       mainAxisSize: MainAxisSize.min,
       children: [
